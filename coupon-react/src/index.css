@@ -1,0 +1,130 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.prime-btn:hover {
+  background-color: #ee6c4d !important;
+}
+
+.prime-btn:hover span {
+  color: rgb(83, 29, 29);
+}
+
+.prime-btn {
+  font-weight: bold !important;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: "200px";
+  color: #ee6c4d;
+
+  background: transparent;
+  padding: 7px 15px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+.sec-btn{
+  color: #e0fbfc;
+  width: 300px;
+  height: 40px;
+  background: transparent;
+  border-radius: 20px;
+  padding: 5px;
+  border: none;
+  margin: 10px;
+  margin-left: 1.5cm;
+  box-shadow: 0 0 5px #808486;
+}
+.sec-btn:hover{
+   box-shadow: 0 0 5px #000000;
+}
+.tx-main {
+  color: #e0fbfc;
+  width: 300px;
+  height: 40px;
+  background: transparent;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+  margin: 6px;
+  
+}
+
+.tx-main:focus {
+  height: 45px;
+  box-shadow: 0 0 5px #808486;
+  outline: none;
+}
+
+option{
+  background-color:#293241;
+  color: #e0fbfc;
+}
+label{
+  color:#e0fbfc ;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.file-main{
+  
+  display: contents;
+}
+.file-label{
+  
+  margin-left: 175px;
+  padding: 7px;
+  box-shadow: 0 0 5px #808486;
+  border-radius: 20px;
+}
+.lbl-message{
+  margin-left: 10rem;
+  color: #ee6c4d;
+}
+.card{
+  min-width: 250px;
+  border-radius: 200px;
+  box-shadow: 0 0 15px #8ecae6 ;
+ 
+}
+.card:hover{
+  width: 400px;
+  height: 400px;
+  margin: 8px;
+  transition: all 1.5s ease;
+ 
+}
+.card:not(:hover){
+  transition: all 1.5s ease;
+} 
+.card:hover .cardMedia{
+  width: 350px;
+  height: 170px;
+  transition: all 1.5s ease;
+}
+
+.bt-edit {
+  color: #e0fbfc;
+  width: 30px;
+  height: 40px;
+  background: transparent;
+  border-radius: 20px;
+  padding: 5px;
+  border: none;
+  margin: 10px;
+}
+
+.tx-admin{
+  color: #293241;
+  width: 250px;
+  height: 40px;
+  background: transparent;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+  margin: 6px;
+
+}
